@@ -10,7 +10,7 @@ subtitle                 : "배우는것을 기록하는 gitlog"# site tagline t
 name                     : "Legas"
 description              : "JAVA와 PYTHON을 공부하며 공부하는것들을 기록하는 블로그입니다."
 url                      : "https://legas-park.github.io/Legas.github.io/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Legas-park/Legas.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png" 티져이미지
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png" 로고 이미지
