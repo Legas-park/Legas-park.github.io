@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Legas"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/photo.jpg"
   bio              : "JAVA와 PYTHON을 공부하며 공부하는것들을 기록하는 블로그입니다."
   location         : "Republic of Korea"
   email            : "legas.park@gmail.com"
