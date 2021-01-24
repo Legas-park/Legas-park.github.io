@@ -1,5 +1,5 @@
 ---
-title: 깃허브 블로그 만들기(How to create GitHub blog)
+title: How to create GitHub blog(깃허브 블로그 만들기)
 tags:
 - blog
 - GitHubblog
@@ -67,7 +67,7 @@ toc_sticky: true
 >생성된 주소는 이제 새로운 테마를 적용하며 조금씩 수정할 예정!
 
 ## 2.블로그에 테마(스킨) 적용하기
-https://github.com/mmistakes/minimal-mistakes 제 페이지의 테마는 이것으로 적용했고, 다른 테마는 적용해보지 않아 해당 테마로 설명드리겠습니다.
+<https://github.com/mmistakes/minimal-mistakes> 제 페이지의 테마는 이것으로 적용했고, 다른 테마는 적용해보지 않아 해당 테마로 설명드리겠습니다.
 
 * mmistakes의 Github에서 Code 메뉴 > Download ZIP 클릭 > 클론해서 로컬파일 생성했던 폴더에 압축해제
 
@@ -87,7 +87,7 @@ Summary(왜 변경했는지의 제목) 작성 > Description(변경했던 내용�
 ### 2-2.개발 환경 셋팅
 개발 환경이라고 해봤자 아직 아무것도 모르는 저에겐 그저 인터넷의 다른 블로그를 따라하는 방법밖에 없었습니다.
 내 컴퓨터의 로컬 개발 환경셋팅을 하기위해서는 Rubby라는 것을 설치해야합니다.
-https://rubyinstaller.org/downloads/ 이곳에서 Rubby를 다운받고 Clone된 로컬파일로 이동합니다.(여기서 테마를 압축했던 폴더로 꼭 가야합니다.)
+<https://rubyinstaller.org/downloads/> 이곳에서 Rubby를 다운받고 Clone된 로컬파일로 이동합니다.(여기서 테마를 압축했던 폴더로 꼭 가야합니다.)
 
 #### Rubby셋팅
 해당 로컬폴더의 주소창에 cmd를 입력후 엔터 > 명령창에 아래의 명령어를 순서대로 입력
@@ -153,7 +153,7 @@ gem install bundler > bundle > jekyll serve
 
 
 에디터를 설치했다면 config.yml파일을 Visual Studio Code 열어서 아래의 제 config파일과 맞게 설정해주시면 됩니다.
-https://github.com/Legas-park/Legas-park.github.io/blob/main/_config.yml
+<https://github.com/Legas-park/Legas-park.github.io/blob/main/_config.yml>
 
 #### navigation 설정
 Categories, Tag, About이 노출되기 위해서 3개의 파일을 수정해야합니다.
@@ -173,7 +173,7 @@ categories, about을 아래의 이미지처럼 설정
 ![]({{ 'assets/images/Post1/img16.jpg' | relative_url }})
 
 #### 이후 필요한 설정을 위해서 아래와 같이 진행
-Node.js설치하기 https://nodejs.org/en/
+Node.js설치하기 <https://nodejs.org/en/>
 
 #### Node.js설치 후 package.json 수정
 [](http://github.com/Legas-park/Legas-park.github.io/blob/main/package.json)
@@ -199,11 +199,11 @@ Node.js설치하기 https://nodejs.org/en/
 이후 cmd창에서 명령어 실행
 명령어 : bundle install > jekyll serve
 
-이제 http://localhost:4000/admin/ 주소로 들어가면 어드민으로 접근이 가능합니다.
+이제 <http://localhost:4000/admin/> 주소로 들어가면 어드민으로 접근이 가능합니다.
 포스팅을 쉽게 작성하고 수정할 수 있게 되었습니다.(박수):)
 ![]({{ 'assets/images/Post1/img17.jpg' | relative_url }})
 
 포스팅 방법은 다음 포스팅에 이어서 작성하겠습니다.
 봐주셔서 감사합니다.
 
-설명했던 부분에서 틀린부분이나 아니면 블로그를 만들면서 에러가 난 부분이 있다면 서로 공유하면서 공부하게 될 수 있으면 좋겠습니다. :)
+설명했던 부분에서 틀린부분이나 아니면 블로그를 만들면서 에러가 난 부분이 있다면 서로 공유하면서 공부하게 될 수 있으면 좋겠습니다.  :)
