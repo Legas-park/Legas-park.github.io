@@ -86,3 +86,20 @@ public class Main {
 이처럼 *Primitive type*은 저장된 값을 공유하지 않고 복사하여 사용됩니다.
 
 ## 2-2. 참조형 타입
+참조형 타입은 *Primitive type*과 다르게 저장된 값을 공유하여 사용됩니다.
+```java
+public static void main(String[] args) {
+        Point point1 = new Point(1,1);
+        Point point2 = point1;
+        point1.x = 2;
+        System.out.println(point2);
+
+        int a = 1;
+        int b = a; // 변수 선언
+        a = 3; // 기존변수 값을 변경
+        System.out.println(b); // 결과는 변경된 값 3이 출력되지않고 기존변수 1이 출력됨
+
+      }
+```
+위처럼 `Point`클래스를 사용한 변수 `point1.x`값을 변경해도 참조타입의 경우
+변경된 값을 참조에 의해 복사되는 반면에 기본유형은 처음 선언한 값을 계속 가지고있습니다.
