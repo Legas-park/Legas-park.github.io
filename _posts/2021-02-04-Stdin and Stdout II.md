@@ -45,11 +45,14 @@ public static void main(String[] args) {
 Scanner 클래스를 사용하여 입력값을 int, double, String 타입으로 입력
 출력도 입력값과 같이 세가지가 동일하게 나오도록 코드를 만들었습니다.
 
-input 31, 31.2, Name is Legas  
+input 
+31  
+31.2  
+Name is Legas    
 결과는  
-String :
-Double : 31 .2 
-Int: 31
+String :  
+Double : 31 .2  
+Int: 31  
 input의 순서대로 입력했지만 31.2를 입력하고 Enter를 누르는순간 실행은 종료됩니다.  
 
 nextInt() 메소드 다음에 nextLine() 메소드를 실행하려고 할때 nextLine() 메소드를 입력받지않고 그냥 넘어가버리는 오류가 발생합니다.  
@@ -61,15 +64,15 @@ nextInt() 메소드 다음에 nextLine() 메소드를 실행하려고 할때 nex
 
 * 3개의 input이 있을때 실행값을 출력시켜라
 
-Sample Input
-1. 42
-2. 3.1415
-3. Welcome to HackerRank's Java tutorials!
+Sample Input  
+1. 42  
+2. 3.1415  
+3. Welcome to HackerRank's Java tutorials!  
 
-Sample output
-1. String : Welcome to HackerRank's Java tutorials!
-2. Double : 3.1415
-3. Int : 42
+Sample output  
+1. String : Welcome to HackerRank's Java tutorials!  
+2. Double : 3.1415  
+3. Int : 42  
 
 아래 문제를 풀었던 코드
 ```java
@@ -89,7 +92,7 @@ public static void main(String[] args) {
     }
 }
 ```
-결과는  
+결과는    
 어떠한 정수, 실수, 문자열을 입력해도 샘플 output순서대로 출력이 되었습니다.
 ![]({{ 'assets/images/img2.JPG' | relative_url }})
 
