@@ -49,7 +49,7 @@ Sample Output
 7 7 7 7 7 7 7 7 7 7 7 7 7  
 
 ## 1-1. 코드 설명  
-<https://legas-park.github.io/javaclass/solvetest/Java-for-loops/>  
+[이전 포스팅](https://legas-park.github.io/javaclass/solvetest/Java-for-loops/)  
 위의 링크에 이전 포스팅에 대한 정보가 있습니다.  
 이번 포스팅은 해당 문제를 거꾸로 뒤집어서 1부터 ~ N까지 증가하면서 둘러싸는 문제를 포스팅하도록 하겠습니다.
 내용을 토대로 다시 한번 정리하자면  
