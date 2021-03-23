@@ -1,5 +1,5 @@
 ---
-title: Java for test solution.md
+title: Java for test solution!
 tags:
 - beginner
 - learnjava
