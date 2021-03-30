@@ -277,14 +277,20 @@ defaults:
       path: ""
       type: posts
     values:
-    sidebar:
-    nav: "docs"
       layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+  - scope:
+      path: "projects"
+      type: "pages" # 이전 Jekyll 2.2 에서는 `page` 
+    values:
+      layout: "project" # 이전 디폴트 레이아웃 설정을 덮어씀
+      author: "Legas"   
+    sidebar:
+     nav: "docs"
 
   # _pages
   - scope:
