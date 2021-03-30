@@ -56,8 +56,7 @@ Sample Output
 <details>
   <summary>완성된 코드 펼치기</summary>
   <div markdown="1">
-```java
-```java
+```java 
 public static void main(String[] args) {
         Scanner star = new Scanner(System.in);
         int n = star.nextInt();
