@@ -25,23 +25,23 @@ Int타입의 범위는 [-2^31,  2^31 - 1]
 
 *문제 예시 1  
   
-Input  x = 123
-Output = 321  
+Input  x = 123  
+Output = 321    
 
 *문제 예시 2  
   
-Input  x = -123
-Output = -321  
+Input  x = -123  
+Output = -321    
   
 *문제예시 3
   
-Input  x = 120
-Output = 21
+Input  x = 120  
+Output = 21  
   
 *문제예시 4
   
-Input  x = 0
-Output = 0  
+Input  x = 0  
+Output = 0    
 
 위와 같은 문제 예시를 보고 해당 문제를 풀 수 있는 코드 만들기  
 # 2. 알고리즘 문제 풀이
